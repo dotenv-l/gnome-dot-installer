@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dotInstaller"
+version = "0.1.0"
+description = "Instalador universal para sistemas Debian con interfaz GNOME"
+authors = [
+    { name = "Tu Nombre", email = "tu@email.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "PyGObject"
+] 

@@ -1,0 +1,355 @@
+/* Epic Package Store - Dark Gradient Theme Mejorado */
+
+window, GtkWindow {
+    background: linear-gradient(135deg, #23243a 0%, #1a1b2b 100%);
+    transition: all 0.3s ease;
+}
+#header {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    padding: 32px 32px 16px 32px;
+    margin-bottom: 24px;
+    border: 1px solid #31324a;
+}
+#app-card {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    border: 1px solid #31324a;
+    padding: 20px;
+    margin: 16px;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+#app-card:hover {
+    box-shadow: 0 8px 28px rgba(255,45,139,0.25);
+    border: 2px solid #FF2D8B;
+    transform: translateY(-5px);
+}
+#app-card-title {
+    color: #FF2D8B;
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-top: 8px;
+}
+#app-card-category {
+    color: #7f8fa6;
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+GtkButton {
+    background: linear-gradient(135deg, #43A047 0%, #388E3C 100%);
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 8px 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(67,160,71,0.25);
+    border: none;
+}
+GtkButton:hover {
+    background: linear-gradient(135deg, #FF2D8B 0%, #D81B60 100%);
+    box-shadow: 0 4px 12px rgba(255,45,139,0.3);
+    transform: translateY(-2px);
+}
+GtkLabel {
+    color: #F4F6F8;
+}
+#stats-box {
+    background: #23243a;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(44,47,51,0.18);
+    padding: 24px 18px;
+    margin: 12px 0 12px 0;
+}
+#tabs-box GtkButton {
+    background: #23243a;
+    color: #FF2D8B;
+    border-radius: 16px;
+    margin: 0 4px;
+    font-weight: 500;
+    border: 1.5px solid #31324a;
+}
+#tabs-box GtkButton:checked, #tabs-box GtkButton:active {
+    background: #FF2D8B;
+    color: #FFFFFF;
+}
+#drop-area {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    border: 2px dashed #FF2D8B;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 0 12px;
+    color: #FF2D8B;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+#drop-area:hover {
+    border: 2.5px solid #43A047;
+    color: #43A047;
+    box-shadow: 0 8px 24px rgba(67,160,71,0.3);
+    transform: scale(1.02);
+}
+
+/* Epic Package Store - Sidebar Mejorado y Biblioteca agrupada */
+
+window, GtkWindow {
+    background: linear-gradient(135deg, #23243a 0%, #1a1b2b 100%);
+}
+#sidebar {
+    background: linear-gradient(180deg, #23243a 0%, #18192b 100%);
+    border-radius: 0 24px 24px 0;
+    box-shadow: 2px 0 16px rgba(0,0,0,0.3);
+    padding: 32px 0 32px 0;
+    min-width: 160px;
+    border-right: 1px solid #31324a;
+}
+#sidebar-logo {
+    font-size: 2.5em;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+#sidebar GtkButton {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    color: #FF2D8B;
+    border-radius: 18px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 12px 8px;
+    padding: 18px 0;
+    border: 1px solid #31324a;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#sidebar GtkButton:hover {
+    background: linear-gradient(135deg, #31324f 0%, #282940 100%);
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+#sidebar GtkButton:checked, #sidebar GtkButton:active, #sidebar GtkButton:focus {
+    background: linear-gradient(135deg, #FF2D8B 0%, #D81B60 100%);
+    color: #FFFFFF;
+    box-shadow: 0 0 16px rgba(255,45,139,0.4);
+    transform: translateX(8px);
+}
+#sidebar-icon {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+#sidebar-text {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+/* Biblioteca agrupada */
+.category-label {
+    color: #FF2D8B;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.biblio-app-box {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    padding: 16px 24px;
+    margin-bottom: 12px;
+    border: 1px solid #31324a;
+    transition: all 0.3s ease;
+}
+.biblio-app-box:hover {
+    box-shadow: 0 8px 20px rgba(255,45,139,0.2);
+    transform: translateY(-3px);
+    border-color: #FF2D8B;
+}
+.biblio-app-box GtkLabel {
+    color: #F4F6F8;
+    font-size: 1em;
+}
+.biblio-app-box GtkButton {
+    background: linear-gradient(135deg, #FF2D8B 0%, #D81B60 100%);
+    color: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    box-shadow: 0 2px 8px rgba(255,45,139,0.25);
+    transition: all 0.3s ease;
+}
+.biblio-app-box GtkButton:hover {
+    background: linear-gradient(135deg, #43A047 0%, #388E3C 100%);
+    box-shadow: 0 4px 12px rgba(67,160,71,0.3);
+    transform: translateY(-2px);
+}
+#sidebar-toggle {
+    background: #23243a;
+    color: #FF2D8B;
+    border-radius: 12px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+    padding: 4px 0;
+    border: 2px solid #31324a;
+    transition: background 0.2s, color 0.2s;
+}
+#sidebar-toggle:hover {
+    background: #FF2D8B;
+    color: #FFFFFF;
+}
+#sidebar.collapsed {
+    min-width: 60px;
+    transition: min-width 0.2s;
+}
+#sidebar.expanded {
+    min-width: 160px;
+    transition: min-width 0.2s;
+}
+#app-card-comment {
+    color: #b0b4c0;
+    font-size: 0.95em;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+#loading-label {
+    color: #FF2D8B;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 8px;
+}
+#library-tabs-box {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+#library-tabs-box GtkButton {
+    background: #23243a;
+    color: #FF2D8B;
+    border-radius: 16px;
+    margin: 0 4px;
+    font-weight: 500;
+    border: 1.5px solid #31324a;
+    padding: 8px 16px;
+}
+#library-tabs-box GtkButton:checked, #library-tabs-box GtkButton:active {
+    background: #FF2D8B;
+    color: #FFFFFF;
+}
+#app-card-critical {
+    color: #FF2D8B;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+/* Diálogo de instalación */
+#install-dialog {
+    background: linear-gradient(135deg, #2d2e4a 0%, #23243a 100%);
+    border-radius: 20px;
+    border: 1px solid #31324a;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+#install-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+#install-desc {
+    color: #b0b4c0;
+    font-size: 16px;
+}
+
+#install-app-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+#install-arrow-icon {
+    font-size: 32px;
+    margin: 8px 0;
+    color: #FF2D8B;
+}
+
+#install-system-icon {
+    font-size: 48px;
+    margin-top: 12px;
+}
+
+#install-progress {
+    min-height: 10px;
+    border-radius: 5px;
+    background-color: #31324a;
+}
+
+#install-progress progress {
+    background-color: #FF2D8B;
+}
+
+#install-status {
+    color: #b0b4c0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#install-success-icon {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+#install-success-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+#install-details {
+    color: #b0b4c0;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+#install-close-button {
+    background: linear-gradient(135deg, #FF2D8B 0%, #D81B60 100%);
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(255,45,139,0.3);
+    transition: all 0.3s ease;
+}
+
+#install-close-button:hover {
+    box-shadow: 0 6px 16px rgba(255,45,139,0.4);
+    transform: translateY(-2px);
+}
+
+#install-error-icon {
+    font-size: 64px;
+}
+
+#install-error-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D32F2F;
+}
+
+#install-error-details {
+    font-size: 14px;
+    color: #b0b4c0;
+}
+
+#install-error-text {
+    font-size: 12px;
+    color: #D32F2F;
+    background: rgba(211, 47, 47, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 8px 0;
+}

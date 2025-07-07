@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Subway Surfers
+Exec="/home/jrks/Applications/SubwaySurfers-x86-64.AppImage" %U
+Icon=SubwaySurfers
+Type=Application
+Categories=Game;Utility;
+Comment=Subway Surfers Game
+Terminal=false
+StartupWMClass=SubwaySurfers 
